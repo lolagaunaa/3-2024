@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurante "El Buen Sabor"</title>
+</head>
+<body>
+    <h1>Menú del Restaurante "Loa Platos Ideales"</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre del plato</th>
+                <th>Descripción</th>
+                <th>Precio (ARS)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ñoquis a la Boloniesa</td>
+                <td>Ñoquis de Papa con un toque de nuez moscada rallada y Salsa de Tomate y Carne.</td>
+                <td>$4500</td>
+            </tr>
+            <tr>
+                <td>Asado</td>
+                <td>Comida tipica de Argentina, especies de carnes a la Parrila Asada.</td>
+                <td>$16700</td>
+            </tr>
+            <tr>
+                <td>Ensalada Rusa</td>
+                <td>Ensalada de papa, zanahoria, remolacha y arbeja.</td>
+                <td>$2699(por unidad)</td>
+            </tr>
+            <tr>
+                <td>Guiso</td>
+                <td>Una salsa de tomate y salsa con fideo, hecho todo junto.</td>
+                <td>$5000</td>
+            </tr>
+            <tr>
+                <td>Tequeños</td>
+                <td>Un envuelto de masa horneada rellena de queso.</td>
+                <td>$3499(por cada 6 unidades)</td>
+                
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Formulario de Reserva</h2>
+
+    <form action="#">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+
+        <label for="personas">Cantidad de personas:</label>
+        <input type="number" id="personas" name="personas" min="1" required>
+
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha" required>
+
+        <label for="hora">Hora:</label>
+        <input type="time" id="hora" name="hora" required>
+<br>
+        <label for="comentarios">Comentarios (opcional):</label>
+        <textarea id="comentarios" name="comentarios"></textarea>
+
+        <button type="submit">Enviar reserva</button>
+    </form>
+</body>
+</html>
