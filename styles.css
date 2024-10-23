@@ -1,0 +1,78 @@
+/* Cambiar el color de fondo y el tipo de letra de la página */
+body {
+    background-color: #f4f4f4; /* Fondo gris claro */
+    font-family: Arial, sans-serif; /* Fuente Arial */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el título principal */
+h1 {
+    text-align: center;
+    color: #4CAF50; /* Color verde */
+    font-size: 36px; /* Tamaño grande */
+}
+
+/* Estilos para las secciones de subtítulos (Ingredientes, Paso a Paso) */
+h3, h4 {
+    color: #333; /* Texto oscuro */
+    text-align: left;
+    margin-left: 20px;
+}
+
+/* Estilos para la lista de ingredientes */
+ul {
+    list-style-type: square; /* Puntos de lista cuadrados */
+    margin-left: 40px;
+    font-size: 18px;
+}
+
+/* Estilos para la lista ordenada del paso a paso */
+ol {
+    margin-left: 40px;
+    font-size: 18px;
+}
+
+/* Estilos para las imágenes */
+img {
+    display: block;
+    margin: 20px auto;
+    width: 400px; /* Ajustar tamaño de imagen */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Estilos de los botones y enlaces en general */
+a, button {
+    background-color: #4CAF50; /* Color verde */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Pseudoclase hover para interacción con botones o enlaces */
+a:hover, button:hover {
+    background-color: #45a049; /* Cambio a verde más oscuro */
+}
+
+/* Pseudoclase active para cuando un botón es presionado */
+a:active, button:active {
+    background-color: #3e8e41; /* Verde aún más oscuro */
+}
+
+/* Nota al final del documento */
+br + span {
+    display: block;
+    margin-left: 20px;
+    font-style: italic;
+    color: #555;
+}
+.lala{
+    text-align: center;
+    color: #4CAF50; /* Color verde */
+    font-size: 25px; /* Tamaño grande */
+}
